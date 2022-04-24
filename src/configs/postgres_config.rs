@@ -1,4 +1,4 @@
-#[derive(Debug)]
+#[derive(Debug, Default)]
 pub struct PostgresConfig {
     pub host: String,
     pub port: u16,

@@ -1,4 +1,4 @@
-#[derive(Debug, Clone)]
+#[derive(Debug, Default, Clone)]
 pub struct Config {
     pub debug: bool,
     pub secret_key: String,

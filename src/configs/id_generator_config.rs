@@ -1,4 +1,4 @@
-#[derive(Debug)]
+#[derive(Debug, Default)]
 pub struct IdGeneratorConfig {
     pub worker_id: u8,
     pub data_center_id: u8,
