@@ -22,3 +22,7 @@ version = "1.0.30"
 [dependencies.snowflake]
 git = "https://github.com/boris-lok/snowflake"
 branch = "master"
+
+[dependencies.chrono]
+version = "0.4.19"
+features = ["serde"]
