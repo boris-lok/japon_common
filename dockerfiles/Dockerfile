@@ -41,4 +41,6 @@ COPY --from=builder /usr/src/web_api_gateway/target/release/web_api_gateway .
 
 EXPOSE 3030 
 
+RUN chmod +x /opt/entrypoint.sh
+
 CMD ["./entrypoint.sh"]
